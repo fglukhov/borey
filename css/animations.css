@@ -1,0 +1,25 @@
+@media (min-width: 768px) {
+
+	.btn-order {
+		transform: translateY(-100%);
+	}
+
+	.section-top-descr-top {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.btn-order {
+		transform: none !important;
+	}
+
+	.section-top-descr-top {
+		opacity: 1 !important;
+		transform: none !important;
+	}
+
+}
